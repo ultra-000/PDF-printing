@@ -14,7 +14,7 @@ html {
   border-bottom: 1px solid lightgray;
 }
 
-.printBtn {
+#printBtn {
   color: black;
   cursor: pointer;
   margin-left: 1rem;
@@ -25,7 +25,19 @@ html {
   transition: background-color 0.3s ease;
 }
 
-.printBtn:hover,
-.printBtn:active {
+#printBtn:hover,
+#printBtn:active {
   background-color: whitesmoke;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-grow-0 {
+  flex-grow: 0;
 }

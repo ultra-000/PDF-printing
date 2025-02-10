@@ -8,9 +8,36 @@
     <link rel="stylesheet" href="./src/css/main.css" />
   </head>
   <body>
-    <h1 class="heading">PDF Printing</h1>
-    <button class="printBtn" onclick="printPdf('./assets/pdf/sample.pdf')">
-      Print PDF
-    </button>
+    <header class="heading">
+      <h1>PDF Printing</h1>
+    </header>
+    <div>
+      <div
+        class="flex flex-col"
+        style="
+          justify-content: flex-start;
+          align-items: flex-start;
+          margin: 1rem;
+        "
+      >
+        <label for="pdfUrl" style="color: rgb(130, 130, 130)"
+          >Specify PDF URL</label
+        >
+        <input
+          type="text"
+          name="pdfUrl"
+          id="pdfUrl"
+          placeholder="PDF URL"
+          style="
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 0.3rem;
+            background-color: white;
+            border: 1px solid lightgray;
+          "
+        />
+      </div>
+      <button id="printBtn">Print PDF</button>
+    </div>
   </body>
 </html>
