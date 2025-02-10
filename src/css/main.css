@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.printBtn {
+  color: black;
+  cursor: pointer;
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  background-color: white;
+  border: 1px solid lightgray;
+  transition: background-color 0.3s ease;
+}
+
+.printBtn:hover,
+.printBtn:active {
+  background-color: whitesmoke;
+}
